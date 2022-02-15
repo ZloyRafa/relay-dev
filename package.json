@@ -8,7 +8,9 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
+    "react-relay": "^13.1.1",
     "react-scripts": "5.0.0",
+    "relay-runtime": "^13.1.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -16,6 +18,10 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
+  },
+  "relay": {
+    "src": "./src/",
+    "schema": "./schema.graphql"
   },
   "eslintConfig": {
     "extends": [
@@ -34,5 +40,9 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "babel-plugin-relay": "^13.1.1",
+    "relay-compiler": "^13.1.1"
   }
 }
