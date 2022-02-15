@@ -4,6 +4,7 @@ import './App.css';
 import fetchGraphQL from './fetchGraphQL';
 
 //tetst-commit
+//tetst-commit 2
 const { useState, useEffect } = React;
 
 function App() {
